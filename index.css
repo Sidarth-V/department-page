@@ -1,0 +1,154 @@
+:root {
+  --blue: rgb(40, 40, 53);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+.head {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.head img {
+  filter: brightness(30%);
+  width: 100%;
+}
+
+.imgText {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.imgText h1 {
+  font-size: 70px;
+  color: white;
+}
+
+.container {
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.container2 {
+  /* margin: 2%; */
+  display: flex;
+  justify-content: center;
+  background-color: var(--blue);
+}
+
+.heading {
+  padding: 2%;
+  background-color: var(--blue);
+  text-align: center;
+  color: white;
+}
+
+.middle {
+  background-image: url("assets/campus-banner.jpeg");
+  height: 40vh;
+  padding: 2%;
+  height: 100%;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2%;
+  margin: 4%;
+  text-align: center;
+  background-color: white;
+  height: 100%;
+}
+
+.card2 {
+  width: 20%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2%;
+  margin: 1%;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.card2 img {
+  height: 150px;
+}
+
+.card2 p {
+  font-size: 10px;
+}
+
+.card3 {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  background-color: white;
+  border-radius: 12px;
+  margin: 4%;
+}
+
+.card3 .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card3 .text img {
+  height: 170px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card3 .text h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.card3 .text p:nth-of-type(1) {
+  color: rgb(35, 182, 219);
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+.card3 .text p:nth-of-type(2) {
+  margin: 10px;
+  width: 90%;
+  text-align: center;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  padding: 2%;
+  height: 100%;
+}
+
+.end2 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("assets/bg.jpeg");
+  text-align: center;
+  padding: 1%;
+}
